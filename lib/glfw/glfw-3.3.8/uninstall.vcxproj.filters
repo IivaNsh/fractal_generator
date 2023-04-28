@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\c++\small_projects\dinamic_fractal\CMakeFiles\239ab79a0e745f735589f75513fb48bc\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\c++\small_projects\dinamic_fractal\lib\glfw\glfw-3.3.8\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\dev\c++\small_projects\dinamic_fractal\lib\glfw\glfw-3.3.8\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FC7A5442-A05C-3DA6-8ACB-6571E40C6040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
