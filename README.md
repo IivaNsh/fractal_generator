@@ -1,13 +1,12 @@
-# simple cell automata
+# Fractal genrator
 
-#### only have Linux support
+build with prefered compiler
 
-to make app:
+make sure your executable file in the same directory as shaders directory:
 ```
-  git clone https://github.com/IivaNsh/cell_automata
-  cd cell_automata/build
-  cmake ..
-  make
+some_dir
+       \_ shaders   (directory with shaders)
+       \_ app       (executable file)
 ```
 
 launch app:
@@ -16,12 +15,10 @@ launch app:
 ```
 
 shortcuts:
-
 ```
- RMB - add pixel(no hold)
+RMB - draq nearest squeare 
 "q" - exit
-"d" - toggle menu
-"s" - start/stop animation
-"r" - reset texture and stop animation
+"d" - delete last created square
+"a" - add new squeare
 ```
 
