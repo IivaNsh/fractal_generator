@@ -1,5 +1,7 @@
 # Fractal genrator
 
+![alt text](https://github.com/IivaNsh/images/img1.jpg?raw=true)
+
 build with prefered compiler
 
 make sure your executable file in the same directory as shaders directory:
