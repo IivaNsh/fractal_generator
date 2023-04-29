@@ -4,8 +4,8 @@
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
 
-//#include <unistd.h>
-#include <Windows.h>
+#include <unistd.h>
+//#include <Windows.h>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -534,8 +534,8 @@ int main()
 
 
         if(vsync_state){
-            //usleep(1000);
-            Sleep(1);
+            usleep(1000);
+            //Sleep(1);
         }
 
     }
