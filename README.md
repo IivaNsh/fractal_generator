@@ -1,6 +1,6 @@
 # Fractal genrator
 
-![generated image](https://github.com/IivaNsh/fractal_generator/images/img1.jpg)
+![generated image](images/img1.jpg)
 
 build with prefered compiler
 
