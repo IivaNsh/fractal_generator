@@ -4,7 +4,7 @@
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
 
-#ifdef PLATFORM_WIN
+#ifdef WIN32
     #include <Windows.h>
 #else
     #include <unistd.h>
@@ -538,7 +538,7 @@ int main()
 
 
         if(vsync_state){
-            #ifdef PLATFORM_WIN
+            #ifdef WIN32
                 Sleep(1);
             #else
                 usleep(1000);

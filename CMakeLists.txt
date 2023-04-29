@@ -4,11 +4,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(app VERSION 1.0)
 
-if($(CMAKE_SYSTEM_NAME) MATCHES "Windows")
-	set(WIN 1)
-	add_compiler_definitions(PLATFORM_WIN=${WIN})
-endif()
-
 #glfw section
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
