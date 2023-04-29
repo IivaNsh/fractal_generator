@@ -4,8 +4,12 @@
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
 
-#include <unistd.h>
-//#include <Windows.h>
+#ifdef PLATFORM_WIN
+    #include <Windows.h>
+#else
+    #include <unistd.h>
+#endif
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -534,8 +538,12 @@ int main()
 
 
         if(vsync_state){
-            usleep(1000);
-            //Sleep(1);
+            #ifdef PLATFORM_WIN
+                Sleep(1);
+            #else
+                usleep(1000);
+            #endif
+
         }
 
     }
